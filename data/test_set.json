@@ -1,0 +1,24 @@
+{
+  "in_scope": [
+    {"q": "What is supervised learning?", "keywords": ["labeled"]},
+    {"q": "What is the difference between classification and regression?", "keywords": ["category", "continuous"]},
+    {"q": "Which algorithm is the most popular for clustering?", "keywords": ["k-means"]},
+    {"q": "What is PCA used for?", "keywords": ["reduces", "features"]},
+    {"q": "What is overfitting?", "keywords": ["noise", "training"]},
+    {"q": "How can overfitting be reduced?", "keywords": ["regularization", "dropout"]},
+    {"q": "What does high variance mean in the bias-variance tradeoff?", "keywords": ["sensitive"]},
+    {"q": "What does the learning rate control in gradient descent?", "keywords": ["step"]},
+    {"q": "What is backpropagation?", "keywords": ["gradient", "weight"]},
+    {"q": "Why can accuracy be misleading?", "keywords": ["imbalanced"]},
+    {"q": "What is the F1 score?", "keywords": ["harmonic"]},
+    {"q": "What is self-attention in transformers?", "keywords": ["weigh", "importance"]},
+    {"q": "What does reinforcement learning optimize?", "keywords": ["reward"]},
+    {"q": "What is cross-validation?", "keywords": ["folds"]}
+  ],
+  "out_of_scope": [
+    {"q": "Who won the FIFA World Cup in 2018?"},
+    {"q": "What is the capital of Australia?"},
+    {"q": "How do I bake a chocolate cake?"},
+    {"q": "Explain the French Revolution."}
+  ]
+}

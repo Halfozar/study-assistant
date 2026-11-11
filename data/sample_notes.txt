@@ -1,0 +1,21 @@
+Machine Learning Basics - Study Notes
+
+Machine learning is a branch of artificial intelligence in which computers learn patterns from data instead of being explicitly programmed with rules. A model is trained on examples and then used to make predictions on new, unseen data.
+
+Supervised learning uses labeled data, where every training example has a known correct output. Common supervised tasks are classification, which predicts a category such as spam or not spam, and regression, which predicts a continuous number such as house price. Examples of supervised algorithms include linear regression, logistic regression, decision trees and support vector machines.
+
+Unsupervised learning works with unlabeled data and tries to discover hidden structure. Clustering groups similar items together, and K-means is the most popular clustering algorithm. Dimensionality reduction, for example principal component analysis (PCA), reduces the number of features while keeping most of the information.
+
+Reinforcement learning trains an agent to take actions in an environment. The agent receives rewards or penalties and learns a policy that maximizes the total reward over time. It is used in game playing and robotics.
+
+Overfitting happens when a model learns the training data too closely, including its noise, and therefore performs poorly on new data. Underfitting happens when a model is too simple to capture the underlying pattern. Overfitting can be reduced with more training data, regularization, dropout, early stopping and cross-validation.
+
+The bias-variance tradeoff describes the balance between two sources of error. High bias means the model makes strong simplifying assumptions and underfits. High variance means the model is very sensitive to small changes in the training data and overfits.
+
+Gradient descent is an optimization algorithm that minimizes a loss function by repeatedly updating the model parameters in the direction of the negative gradient. The learning rate controls the size of each step. A learning rate that is too large can make training diverge, while one that is too small makes training very slow.
+
+Neural networks are made of layers of connected neurons. Each neuron computes a weighted sum of its inputs and applies an activation function such as ReLU or sigmoid. Backpropagation computes the gradient of the loss with respect to every weight so the network can be trained with gradient descent. Deep learning refers to neural networks with many hidden layers.
+
+Model evaluation uses a train-test split so that performance is measured on data the model has not seen. Accuracy is the fraction of correct predictions, but it can be misleading on imbalanced datasets. Precision is the fraction of predicted positives that are truly positive, and recall is the fraction of actual positives that the model finds. The F1 score is the harmonic mean of precision and recall. Cross-validation splits the data into several folds and averages the results to give a more reliable estimate.
+
+Transformers are neural network architectures based on the self-attention mechanism, which lets the model weigh the importance of every word in a sentence relative to the others. Large language models are transformers trained on huge text corpora to predict the next token. Retrieval-augmented generation combines a retriever with a language model so answers are grounded in external documents.
